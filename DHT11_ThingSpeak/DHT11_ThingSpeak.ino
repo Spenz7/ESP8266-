@@ -7,11 +7,11 @@
 
 
 //uncomment the below and fill it in
-//const char* ssid     = "";
-//const char* password = "";
+const char* ssid     = "";
+const char* password = "";
 
-unsigned long myChannelNumber = 2461832; //Your Channel Number (Without Brackets)
-const char * myWriteAPIKey = "HZGQ1IDXQK7QXZAP"; //Your Write API Key
+unsigned long myChannelNumber = ; //Your Channel Number (Without Brackets)
+const char * myWriteAPIKey = ""; //Your Write API Key
 WiFiClient client;
 
 DHT dht(DHTPIN, DHTTYPE);
